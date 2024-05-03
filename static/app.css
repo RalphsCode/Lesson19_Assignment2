@@ -1,0 +1,35 @@
+body {
+    background-color: antiquewhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: blueviolet;
+    margin: 40px;
+}
+
+form  {
+    max-width: 500px;
+    padding: 1em;
+    background-color: aliceblue;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-radius: 5px;
+}
+
+.custom_label {
+    float: left;
+    width: 150px;
+}
+
+button {
+  /* Styles for buttons */
+  background-color: #4CAF50;
+  color: white;
+  float: right;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+button:active {color: rgb(2, 248, 109);}
+button:hover {color: rgb(255, 0, 0); background-color:rgb(157, 248, 155)}

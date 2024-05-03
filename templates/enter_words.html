@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block title %}
+Enter the prompt words
+{% endblock %}
+
+{% block content %}
+<p>Enter the prompt words that you would like to use in the story:</p>
+<form action="/display_story">
+    {% for word in needed %}
+    <label for="A" class="custom_label">{{word}}:</label>
+    <input type="text" width="150px" id="A" name={{word}}><br>
+    {% endfor %}
+    <button type="submit">GO!</button>
+</form>
+{% endblock %}

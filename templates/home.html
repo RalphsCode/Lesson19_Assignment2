@@ -1,0 +1,18 @@
+{% extends 'base.html' %}
+{% block title %}
+Ralph's MadLib home page
+{% endblock %}
+
+{% block content %}
+<h1>Welcome to Ralph's MadLib app!</h1>
+    <p>Pick a story to get started...</p>
+    <form action="/enter" method="'post">
+        <select name="selection">
+            <option value="Story1">Story 1 - The Missing Cookie.</option>
+            <option value="Story2">Story 2 - The Grumpy Dragon</option>
+            <option value="Story3">Story 3 - The Talking Cat</option>
+            <option value="Story4">Story 4 - Sample Story</option>
+          </select>
+          <button type="submit">Go!</button>
+    </form>
+{% endblock %}
